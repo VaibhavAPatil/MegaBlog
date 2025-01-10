@@ -21,6 +21,7 @@ function PostForm({ post }) {
   const navigate = useNavigate();
   const userData = useSelector((state) => state.userData);
 
+  
   const onSubmit = async (data) => {
     if (post) {
       const file = data.image[0]
